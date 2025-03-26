@@ -1,6 +1,5 @@
 ![Alt text](/Host_a_static_Website_on_AWS.png)
 
-# Host a Static Website on AWS
 
 ## Overview
 This project demonstrates how to host a static HTML web application on AWS using various AWS services. The deployment process includes configuring networking components, securing the infrastructure, and ensuring high availability and scalability.
