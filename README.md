@@ -44,13 +44,13 @@ cd /var/www/html
 yum install git -y
 
 # Clone the project repository
-git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
+git clone https://github.com/Vic299/AWS-Static-Website.git
 
 # Copy all files from the cloned repository to Apache web root
-cp -R host-a-static-website-on-aws/. /var/www/html/
+cp -R AWS-Static-Website/. /var/www/html/
 
 # Remove the cloned repository directory
-rm -rf host-a-static-website-on-aws
+rm -rf AWS-Static-Website
 
 # Enable and start Apache HTTP Server
 systemctl enable httpd
